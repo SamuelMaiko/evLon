@@ -1,0 +1,230 @@
+{
+  "profile": [
+    {
+      "name": "el.wan_x",
+      "imageURL": "./Pro.jpeg",
+      "followers": "11.2k",
+      "following": 58
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "imageURL": "https://w0.peakpx.com/wallpaper/338/811/HD-wallpaper-ea-fifa-23-games-and-background-fifa23.jpg",
+      "caption": "Playing fifa today in the evening. Someone interested in playing loser with me. Try me!",
+      "Location": "Quest Gaming, Thika road",
+      "Time": "5:00pm",
+      "timeRemaining": 300,
+      "Attendance": 2,
+      "likesCount": 140,
+      "commentsCount": 25,
+      "smallProfile": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5JZRgN_spOBUWfDFU_Czapvv8IF7F_zDP8WhqTuxbteeKQ_DFoCwqUut_LUgVZNKAIZk&usqp=CAU",
+      "name": "el.wan_x",
+      "counter": 67
+    },
+    {
+      "id": 2,
+      "imageURL": "./WRC.jpeg",
+      "caption": "Watching this movie today you can join meWatching this movie today you can join me Watching this movie today you can join meWatching this movie today you can join me",
+      "Location": "Airport",
+      "Time": "4:00pm",
+      "timeRemaining": 300,
+      "Attendance": 5,
+      "likesCount": 34,
+      "commentsCount": 44,
+      "smallProfile": "./WRC.jpeg",
+      "name": "Official WRC",
+      "counter": 7
+    },
+    {
+      "imageURL": "http://127.0.0.1:5500/Pro.jpeg",
+      "caption": "Mafans mpo hampo tuko na show motooo! ndani ya cockpit 3 live performance with Sewersydaa , Domani Munga and Scar Mkadinali ",
+      "Location": "Kisii stadium, Kisii County",
+      "Time": "7.30 pm",
+      "timeRemaining": 300,
+      "Attendance": 2,
+      "likesCount": 141,
+      "commentsCount": 25,
+      "smallProfile": "http://127.0.0.1:5500/Pro.jpeg",
+      "name": "el.wan_x",
+      "counter": 72,
+      "id": 8
+    },
+    {
+      "id": 3,
+      "imageURL": "./RR.jpeg",
+      "caption": "Watching this movie today you can join meWatching this movie today you can join me Watching this movie today you can join meWatching this movie today you can join me",
+      "Location": "Airport",
+      "Time": "4:00pm",
+      "timeRemaining": 300,
+      "Attendance": 55,
+      "likesCount": 35,
+      "commentsCount": 44,
+      "smallProfile": "./Pro.jpeg",
+      "name": "Wakadinali",
+      "counter": 4
+    },
+    {
+      "id": 4,
+      "imageURL": "./Buru.jpeg",
+      "caption": "Watching this movie today you can join meWatching this movie today you can join me Watching this movie today you can join meWatching this movie today you can join me",
+      "Location": "Airport",
+      "Time": "4:00pm",
+      "timeRemaining": 300,
+      "Attendance": 5,
+      "likesCount": 35,
+      "commentsCount": 44,
+      "smallProfile": "./Buru.jpeg",
+      "name": "Buruklin boyz",
+      "counter": 2
+    },
+    {
+      "id": 5,
+      "imageURL": "./GorMahia.jpeg",
+      "caption": "Watching this movie today you can join meWatching this movie today you can join me Watching this movie today you can join meWatching this movie today you can join me",
+      "Location": "Airport",
+      "Time": "4:00pm",
+      "timeRemaining": 300,
+      "Attendance": 5,
+      "likesCount": 34,
+      "commentsCount": 44,
+      "smallProfile": "./GorMahia.jpeg",
+      "name": "GorMahia FC",
+      "counter": 1
+    }
+  ],
+  "following": [
+    {
+      "name": "Buruklin boyz",
+      "imageURL": "./Buru.jpeg",
+      "postsCount": 5
+    },
+    {
+      "name": "Rong Rende",
+      "imageURL": "./RR.jpeg",
+      "postsCount": 10
+    },
+    {
+      "name": "Sewer",
+      "imageURL": "./Pro.jpeg",
+      "postsCount": 8
+    },
+    {
+      "name": "Quest gaming",
+      "imageURL": "fifa23.jpg",
+      "postsCount": 2
+    },
+    {
+      "name": "Fifa gaming",
+      "imageURL": "./fifaprof.jpg",
+      "postsCount": 11
+    },
+    {
+      "name": "Movies and shows",
+      "imageURL": "./movie-8.png",
+      "postsCount": 22
+    },
+    {
+      "name": "GorMahia FC",
+      "imageURL": "./GorMahia.jpeg",
+      "postsCount": 1
+    },
+    {
+      "name": "WRC updates",
+      "imageURL": "./WRC.jpeg",
+      "postsCount": 34
+    },
+    {
+      "name": "GorMahia FC",
+      "imageURL": "./GorMahia.jpeg",
+      "postsCount": 1
+    }
+  ],
+  "trending": [
+    {
+      "title": "Ndani ya cockpit 3 performance",
+      "attendingCount": 1400
+    },
+    {
+      "title": "Fifa tournament",
+      "attendingCount": 500
+    },
+    {
+      "title": "Cosi Bundi tiktok",
+      "attendingCount": 450
+    },
+    {
+      "title": "Interschools competitions",
+      "attendingCount": 410
+    },
+    {
+      "title": "GTA show",
+      "attendingCount": 350
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "username": "Rong Rende",
+      "userPhotoURL": "./RR.jpeg",
+      "description": "Great insight! Your perspective on this topic is really valuable.I completely agree with you. This post resonates with my experiences too.",
+      "likesCount": 400
+    },
+    {
+      "id": 2,
+      "username": "Tournament Organiser",
+      "userPhotoURL": "./fifa23.jpg",
+      "description": "Thanks for sharing your thoughts. It's interesting to see different viewpoints.I have a different opinion, but I appreciate your perspective.",
+      "likesCount": 267
+    },
+    {
+      "id": 3,
+      "username": "Diogo Jota",
+      "userPhotoURL": "./Diogo.jpeg",
+      "description": "This comment section is getting intense! The discussion is heating up.Let's remember to stay respectful and open-minded while sharing our views.",
+      "likesCount": 345
+    },
+    {
+      "id": 4,
+      "username": "Fifa gamer",
+      "userPhotoURL": "./fifaprof.jpg",
+      "description": "I'm impressed by the depth of your analysis. Your comment is thought-provoking.I'm glad you brought up this point. It adds another layer to the discussion.",
+      "likesCount": 157
+    },
+    {
+      "id": 5,
+      "username": "BBoy Gems",
+      "userPhotoURL": "./Buru.jpeg",
+      "description": "Wow, I never thought about it that way. You've given me a new perspective.Your comment has sparked an interesting debate. I'm enjoying the conversation.",
+      "likesCount": 58
+    },
+    {
+      "id": 6,
+      "username": "WRC Updates",
+      "userPhotoURL": "./WRC.jpeg",
+      "description": "Thanks for your feedback. It's important to consider different opinions. Let's continue this conversation and explore more aspects of the topic.",
+      "likesCount": 199
+    },
+    {
+      "username": "el.wan_x",
+      "userPhotoURL": "http://127.0.0.1:5500/Pro.jpeg",
+      "description": "Hi there Abel Mutua's stories are interesting",
+      "likesCount": 201,
+      "id": 10
+    }
+  ],
+  "notifications": [
+    {
+      "message": "You have been invited to join Ndani ya Cockpit Live performance by Wakadinali at TM Tomorrow."
+    },
+    {
+      "message": "You have been invited to join Ndani ya Cockpit Live performance by Wakadinali at TM Tomorrow."
+    },
+    {
+      "message": "You have been invited to join Ndani ya Cockpit Live performance by Wakadinali at TM Tomorrow."
+    },
+    {
+      "message": "You have been invited to join Ndani ya Cockpit Live performance by Wakadinali at TM Tomorrow."
+    }
+  ]
+}
