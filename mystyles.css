@@ -5,18 +5,14 @@
   }
   body{
     font-family: 'Signika Negative', sans-serif;
-    
   }
-
   .general{
     min-height:100vh;
     width:100%;
     position:relative;
-    /* background-color: rgb(194, 235, 223); */
   }
   .header{
     background-color:white;
-    /* color:white; */
     padding:20px 20px;
     position:fixed;
     width:100%;
@@ -28,7 +24,6 @@
     font-weight:500;
     text-shadow:1px 3px 3px rgb(176, 176, 206);
   }
-
   .main-section{
     display:flex;
     padding-top:77px;
@@ -36,7 +31,6 @@
   .left-section{
     background-color:white;
     width:300px;
-    /* border-right:1px solid black; */
     padding:4px 8px 0px 8px;
     height:100vh;
     position:fixed;
@@ -52,7 +46,6 @@
   }
   .profile-image{
     width:50px;
-    /* background-color: green; */
     margin-left:5px;
   }
   .p-image{
@@ -76,7 +69,6 @@
   .followers{
     margin-right:5px;
   }
-
   .encloser{
     display:flex;
     align-items:center;
@@ -89,9 +81,7 @@
   }
   .notifications .svg{
     position:relative;
-
   }
-
   .counter{
     position:absolute;
     background-color: red;
@@ -101,9 +91,7 @@
     font-size:14px;
     top:-4px;
     right:-5.5px;
-    /* border:1px solid white; */
   }
-
   .svg{
     width:25px;
     margin-left:5px;
@@ -115,30 +103,19 @@
   .home{
     margin-top:10px;
   }
-
   .right-section{
     flex:1;
     background-color:white;
     padding:8px 245px 0px 305px;
     display:flex;
   }
-
   .content{
     height:100%;
     width:100%;
-    /* background-color:green; */
-    /* position:fixed;
-    z-index:20;
-    left:405px;
-    right:345px; */
-
   }
-  
-
   .container{
     width:100%;
     height:460px;
-    /* background-color:yellow; */
     display:flex;
     position:relative;
     justify-content: space-between;
@@ -146,24 +123,14 @@
     overflow: hidden;
     margin-bottom:24px;
   }
-  /* .container2{
-    width:100%;
-    height:500px;
-    background-color:red;
-  } */
   .post-image{
     width:420px;
     height:100%;
-    
   }
   .image-1{
     width:100%;
     height:100%;
-    /* object-fit: cover; */
-    
   }
-  
-
   .small-cont{
     display:flex;
     align-items:center;
@@ -192,7 +159,69 @@
     padding:15px 10px 4px 10px;
     display:flex;
     flex-direction: column;
-    /* justify-content: space-between; */
+    position:relative;
+  }
+  .delete-icon{
+    position:absolute;
+    color:white;
+    width:26.8px;
+    top:16px;
+    left:-50px;
+  }
+  .deleting-option{
+    position:fixed;
+    background-color:rgba(0, 0, 0,0.7);
+    inset:0;
+    height:100vh;
+    z-index:38;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .delete-hide{
+    display:none;
+  }
+  .option-cont{
+    background-color: white;
+    height:130px;
+    width:400px;
+    padding:4px 4px 4px 8px;
+    border-radius:8px;
+    position:relative;
+  }
+  .sure{
+    font-size:21.4px;
+    text-align:center;
+    font-weight:500;
+  }
+  .delete-explanation{
+    color:rgb(75, 75, 75);
+  }
+  .option-btns{
+    margin-top: 16px;
+    display:flex;
+    justify-content: space-between;
+  }
+  .no-btn{
+    margin-left: 20px;
+  }
+.no-btn, .yes-btn{
+  border:none;
+  font-size:16px;
+  background-color: navy;
+  padding:6px 16px;
+  color:white;
+  border-radius:7px;
+}
+  .yes-btn{
+    margin-right: 20px;
+  }
+  .cancel-option{
+    width:35px;
+    position:absolute;
+    color:white;
+    top: -70px;
+    right:-80px;
   }
   .caption{
     max-height:183px;
@@ -220,10 +249,8 @@
     border:none;
     border-radius: 11px;
     box-shadow:2px 2px 4px rgba(0,0,0,0.4);
-    /* background-color: #DCFC35; */
     background-color:navy;
 }
-
 .change-to-attending{
   background-color: rgb(137, 137, 226);
   color:black;
@@ -231,9 +258,7 @@
 }
   .like-btn svg, .comment-btn svg{
     width:28px;
-    /* display:flex; */
   }
-
   .btns{
     display:flex;
   }
@@ -242,7 +267,6 @@
     align-items:center;
     margin-right: 20px;
   }
-
   .liking{
     fill:"red";
   }
@@ -251,9 +275,7 @@
     font-size:17px;
     font-weight:500;
   }
-
   .comments-section{
-    
     position:fixed;
     bottom:0;
     top:0;
@@ -265,13 +287,10 @@
     justify-content: center;
     align-items:center;
     z-index:20;
-    /* transition: display 4s ease-in-out; */
   }
-
   .hide-comment-section{
     display:none;
   }
-
   .cancel-mark{
     width:40px;
     position:absolute;
@@ -279,11 +298,8 @@
     top:-50px;
     right:-280px;
     z-index:21;
-    /* background-color: rgba(0, 0, 0, 0.4);
-    border-radius: 50%; */
     display:flex;
   }
-
   .comment-box{
     background-color: rgb(255, 255, 255);
     width:670px;
@@ -296,12 +312,10 @@
     flex-direction:column;
     justify-content: space-between;
   }
-
   .comment-header{
     background-color: white;
     font-size:19px;
     font-weight:500;
-    /* height:50px; */
     padding:20px;
     position:relative;
   }
@@ -311,10 +325,8 @@
     overflow-y:scroll;
     scrollbar-width:0;
   }
-  
   .comment{
     display:flex;
-    /* justify-content: space-between; */
     height:80px;
     background-color:white;
     box-shadow:1px 1px 4px navy;
@@ -323,10 +335,8 @@
     overflow:hidden;
     border-radius: 10px;
   }
-
   .comment-image2{
     width:50px;
-    /* background-color: orange; */
     margin-right: 14px;
     padding-top:5px;
   }
@@ -335,23 +345,20 @@
     height:50px;
     border-radius:50%;
   }
-
   .comment-details{
-text-align:left;
-width:495px;
+    text-align:left;
+    width:495px;
   }
-
   .comment-username{
     font-size:17px;
     font-weight:500;
   }
   .comment-itself{
-flex:1;
-font-size:15px;
+    flex:1;
+    font-size:15px;
   }
   .comment-opinion{
     width:75px;
-    /* background-color: orange; */
     display:flex;
     flex-direction: column;
     align-items: center;
@@ -363,7 +370,6 @@ font-size:15px;
     align-items:center;
     margin:8px;
   }
-
   .like-comment-btn svg{
     width:22px;
     margin-right: 5px;
@@ -372,8 +378,6 @@ font-size:15px;
     width:22px;
     margin-right: 5px;
   }
-  
-
   .comment-footer{
     background-color: rgb(73, 73, 206);
     height:85px;
@@ -389,7 +393,6 @@ font-size:15px;
     height:44px;
     border-radius:50%;
   }
-
   .comment-input{
     width:400px;
     margin:0px 14px 0px 10px;
@@ -400,7 +403,6 @@ font-size:15px;
     padding-left:17px;
     box-shadow:1px 1px 4px navy;
   }
-
   .send-icon{
     width:37px;
     border-radius:50%;
@@ -411,12 +413,10 @@ font-size:15px;
     display:flex;
     background-color: rgba(255, 255, 255,0.17);
   }
-
   form{
     display:flex;
     align-items:center;
   }
-
   .trends{
     background-color:navy;
     width:240px;
@@ -427,8 +427,6 @@ font-size:15px;
     padding:2px 4px 4px 4px;
     overflow-y: scroll;
   }
-  
-
   .trending-title{
     font-size: 22px;
     font-weight:500;
@@ -452,7 +450,6 @@ font-size:15px;
     flex-direction:column;
     margin-bottom:11px;
     line-height:15px;
-    /* color:black; */
   }
  .attending2{
   font-size:15px;
@@ -463,7 +460,6 @@ font-size:15px;
   }
   .following-cont{
     display:flex;
-    /* background-color: orangered; */
     height:55px;
     border-radius: 10px;
     padding:2px 0px 2px 2px;
@@ -484,7 +480,6 @@ font-size:15px;
     flex:1;
     color:white;
   }
-
   .following-title{
     font-size: 22px;
     font-weight:500;
@@ -493,7 +488,6 @@ font-size:15px;
     z-index:23px;
     background-color:white;
     padding-left: 4px;
-    /* padding:7px 14px; */
   }
   .following-username{
     color:white;
@@ -502,7 +496,6 @@ font-size:15px;
     font-size:15px;
     color:white;
   }
-
   .create-post-main-div{
     position:fixed;
     z-index:25;
@@ -513,7 +506,6 @@ font-size:15px;
     background-color: rgb(255, 255, 255);
     height:100vh;
   }
-
   .form2{
     margin-top: 14px;
     display:flex;
@@ -535,7 +527,6 @@ font-size:15px;
     font-weight: 500;
     color:black;
   }
-
   .image2-post{
     margin-bottom:13px; 
     outline:none;
@@ -546,7 +537,6 @@ font-size:15px;
     box-shadow:0px 0px 4px navy;
     border-radius: 8px;
   }
-
   .continue{
     padding:7px 13px;
     font-weight: 500;
@@ -567,8 +557,6 @@ font-size:15px;
     display:flex;
     justify-content: center;
   }
-
-
   .continue-posting-jr{
     height:470px;
     width:700px;
@@ -578,12 +566,10 @@ font-size:15px;
     top:79px;
     border-radius:14px;
   }
-
   .cp-image{
     height:100%;
     width:340px;
   }
-
   .cp-image2{
     height:100%;
     width:100%;
@@ -593,10 +579,7 @@ font-size:15px;
    display:flex;
    flex-direction: column;
    padding:5px 4px;
-   /* justify-content: space-between; */
-
   }
-
   .cp-caption{
     height:250px;
     padding:10px;
@@ -613,7 +596,6 @@ font-size:15px;
   .cp-caption::-weblit-scrollbar{
     display:none;
   }
-
   .cp-location{
     height:32px;
     padding-left:10px;
@@ -630,7 +612,6 @@ font-size:15px;
     width:100%;
     border:none;
   }
-
   .cp-button{
     padding:7px 4px;
     font-size: 16px;
@@ -640,8 +621,6 @@ font-size:15px;
     background-color: navy;
     color:white;
   }
-
-
   .following-cont-post{
     display:flex;
     background-color: rgb(145, 145, 231);
@@ -667,7 +646,6 @@ font-size:15px;
     display:flex;
     align-items: center;
   }
-
   .following-title-post{
     font-size: 22px;
     font-weight:500;
@@ -676,9 +654,7 @@ font-size:15px;
     z-index:23px;
     background-color:white;
     padding-left: 4px;
-    /* padding:7px 14px; */
   }
-
   .cp-cancel{
     position:absolute;
     top:-62px;
@@ -686,11 +662,9 @@ font-size:15px;
     color:white;
     width:35px;
   }
-
   .boom{
     display:none;
   }
-
   .notifications-center{
     position:fixed;
     z-index:31;
@@ -700,9 +674,7 @@ font-size:15px;
     right:240px;
     background-color: rgba(255, 255, 255,1);
     height:100vh;
-    /* padding:4px 8px; */
   }
-
   .notif-title{
     text-align: center;
     font-size: 25px;
@@ -713,7 +685,6 @@ font-size:15px;
   display:flex;
   flex-direction: column;
   align-items:center;
-  /* justify-content: center; */
 }
   .actual-notif{
   background-color: navy;
@@ -724,51 +695,7 @@ font-size:15px;
   border-radius: 10px;
   box-shadow:2px 2px 4px rgba(0,0,0,0.4)
   }
-
-
-
-
-
-
-
   .click{
     background-color: navy;
     color:white;
   }
-
-
-
-
-
-
-
-
-
-
-
-
-  /* const content=document.querySelector('.content')
-    
-const container=document.createElement('div')
-container.className='container'
-content.appendChild(container)///////// MAJOR APPENDING
-
-const postImage=document.createElement('div')
-postImage.className='post-image';
-const image1=document.createElement('img')
-image1.className='image-1'
-image1.src=document.querySelector('.cp-image2').src
-postImage.appendChild(image1)
-container.appendChild(postImage)///////// APPENDING
-
-const smallCont=document.createElement('div')
-smallCont.className='small-cont'
-const smallImage=document.createElement('img')
-smallImage.className='small-image'
-smallImage.src=document.querySelector('.p-image').src
-const userName=document.createElement('p')
-userName.className='user-name'
-userName.innerHTML=document.querySelector('.username').innerHTML
-smallCont.appendChild(smallImage)
-smallCont.appendChild(userName)
-container.appendChild(smallCont)///////// APPENDING */
